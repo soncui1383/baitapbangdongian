@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Tạo form đơn giản</title>
+    <style type="text/css">
+        .a{
+            margin-left: 30px;
+        }
+        .b{
+            color: #1127ff;
+        }
+        #b{
+            margin-left: 36px;
+        }
+        #c{
+            color: #ff8b0e;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <h1 style="background: #ff1407; color: #FFF; text-align: center; width: 50%">SỞ THÍCH CỦA BẠN</h1>
+    <label>
+        <p class="b"> Họ và tên&emsp;<input type="text" name="yourname"style="width: 300px"/> </p>
+    </label>
+    <label>
+        <p class="b">Email&emsp;&emsp;&nbsp;&nbsp;<input type="text" name="email" style="width: 200px"/></p>
+    </label>
+    <p class="b">Sở thích </p>
+    <p id="c">
+    <label class="a"><input  type="checkbox" name="hobby"/>Thể thao</label>
+    <label class="a" id="b"><input  type="checkbox" name="hobby"/>Nghe nhạc</label>
+    <label class="a"><input  type="checkbox" name="hobby"/>Đọc sách</label><br>
+    <label class="a"><input type="checkbox" name="hobby"/>Lướt web</label>
+    <label class="a"><input type="checkbox" name="hobby"/>Chơi game</label>
+    <label class="a"><input type="checkbox" name="hobby"/>Điện ảnh</label><br>
+        <label class="a"><input type="checkbox" name="hobby"/>Du lịch</label><br></p>
+    <label class="a"><input type="button" name="Submit Form" value="Gửi thông tin"/></label>
+    <label><input type="reset" name="Reset Form" value="Nhập lại" /></label>
+</form>
+
+</body>
+</html>
